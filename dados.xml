@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<array>
+  <catalog>
+
+  <filme01>
+    <filme>A viagem de Chihiro</filme>
+    <autor>Hayao Miyazaki</autor>
+    <genero>Animacao, Familia, Fantasia</genero>
+    <datadepublicacao>18/07/2003</datadepublicacao>
+    <avaliacao>85%</avaliacao>
+    <sinopse>Chihiro e seus pais estao se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguem esteja por perto. Chihiro sente o perigo, mas seus pais comecam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salva-los
+    </sinopse>
+    <preco>R$: 38,00</preco>
+  </filme01>
+  
+  <filme02>
+   <filme>Servico de Entrega da Kiki</filme>
+   <autor>Hayao Miyazaki</autor>
+   <genero>Animacao, Familia, Fantasia, Aventura</genero>
+   <datadepublicacao>29/07/1989</datadepublicacao>
+   <avaliacao>78%</avaliacao>
+   <sinopse>Kiki e uma jovem bruxa que acabou de completar 13 anos. Segundo a tradicao, quando atingem essa idade, todas as bruxas devem sair de casa por um ano para aprender a viver por conta propria. Ela se muda para a cidade de Korico, junto com Jiji, seu gato falante. La ela aprende a seguir em frente com sua vida, apesar de todas as dificuldades que possam surgir.</sinopse>
+   <preco>R$: 24,60</preco>
+  </filme02>
+
+  <filme03>
+   <filme>Vidas ao Vento</filme>
+   <autor>Hayao Miyazaki</autor>
+   <genero>Drama, Animacao, Guerra, Romance</genero>
+   <datadepublicacao>17/10/2013</datadepublicacao>
+   <avaliacao>78%</avaliacao>
+   <sinopse>No interior do Japao, o jovem Jiro Horikoshi sonha em voar em um aviao com formato de passaro. Realizar esse sonho torna-se a meta de sua vida. Durante sua jornada, ele conhece a encantadora Naoko, por quem se apaixona. Porem, quando ela adoece, o destino dele fica incerto.</sinopse>
+   <preco>R$: 22,99</preco>
+  </filme03>
+
+  <filme04>
+   <filme>Your Name</filme>
+   <autor>Makoto Shinkai</autor>
+   <genero>Romance, Animacao, Drama</genero>
+   <datadepublicacao>11/10/2017</datadepublicacao>
+   <avaliacao>85%</avaliacao>
+   <sinopse>Os colegiais Mitsuha e Taki sao completos estranhos vivendo vidas separadas. Mas uma noite, eles trocam de lugar de repente. Mitsuha acorda no corpo de Taki e ele no dela. Essa ocorrencia bizarra continua acontecendo aleatoriamente, e os dois devem ajustar suas vidas um ao outro.</sinopse>
+   <preco>R$: 48,00</preco>
+  </filme04>
+
+  <filme05>
+   <filme>Doutor Estranho no Multiverso da Loucura</filme>
+   <autor>Sam Raimi</autor>
+   <genero>Fantasia, Acao, Aventura</genero>
+   <datadepublicacao>05/05/2022</datadepublicacao>
+   <avaliacao>74%</avaliacao>
+   <sinopse>Doutor Estranho, com a ajuda de aliados misticos antigos e novos, atravessa as perigosas realidades alternativas do Multiverso para enfrentar um misterioso novo adversario.</sinopse>
+   <preco>R$: 79,99</preco>
+  </filme05>
+
+  <filme06>
+   <filme>Harry Potter e as Reliquias da Morte: Parte 2</filme>
+   <autor>David Yates</autor>
+   <genero>Fantasia, Aventura</genero>
+   <datadepublicacao>15/07/2011</datadepublicacao>
+   <avaliacao>81%</avaliacao>
+   <sinopse>Harry, Ron e Hermione continuam sua busca para derrotar o malvado Voldemort de uma vez por todas. Assim que as coisas comecam a parecer desesperadoras para os jovens bruxos, Harry descobre um trio de objetos magicos que o dotam de poderes que rivalizam com as formidaveis habilidades de Voldemort.</sinopse>
+   <preco>R$: 63,39</preco>
+  </filme06>
+
+  <filme07>
+   <filme>Panico 6</filme>
+   <autor>Matt Bettinelli-Olpin</autor>
+   <genero>Terror, Misterio, Thriller</genero>
+   <datadepublicacao>09/03/2023</datadepublicacao>
+   <avaliacao>73%</avaliacao>
+   <sinopse>Sam, Tara, Chad e Mindy, os quatro sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para tras em busca de um novo comeco em uma cidade diferente. Mas nao demora muito para eles se tornarem alvo de um novo serial killer mascarado.</sinopse>
+   <preco>R$: 89,99</preco>
+  </filme07>
+
+  <filme08>
+   <filme>Perfect Blue</filme>
+   <autor>Satoshi Kon</autor>
+   <genero>Animacao, Thriller</genero>
+   <datadepublicacao>25/07/1997</datadepublicacao>
+   <avaliacao>83%</avaliacao>
+   <sinopse>Mima Kirigoe e membro de uma banda de musica pop japonesa (J-Pop), chamada "CHAM!", que decide deixar a banda para se dedicar a carreira de atriz. Alguns fas ficam descontentes com a repentina mudanca de carreira, pois Mima, sendo um idolo pop, e vista como uma menina inocente e angelical. Conforme avanca em sua nova carreira, Mima mergulha em um intenso drama psicologico no qual fantasia e realidade se confundem colocando em duvida sua etica moral.</sinopse>
+   <preco>R$: 50,00</preco>
+  </filme08>
+
+  </catalog>
+</array>
+
+

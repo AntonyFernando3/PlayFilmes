@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="images/logo.png" type="imagem/x-icon">
+    <link rel="stylesheet" href="style/style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<br><br>
+
+<div class="imagem2">
+    <img src="images/logo.png">
+    </div>
+     <div class="texto2"> Play <br> Filmes</div>
+
+     <br><br>
+<body>
+
+    <div class="formstyle">
+    <form action="ler_dados.php" method="post">
+     <div class="texto">
+        DADOS PARA LOCAÇÃO
+    </div>
+
+<br><br>
+        <p>Nome:
+            <input type="text" name="nome" />
+        </p>
+        <p>Email:
+            <input type="text" name="email" />
+        </p>
+        <p>Idade:
+            <input type="number" name="idade" min="0" max="110" />
+        </p>
+
+        <p>Filme:
+            <select name="filme" id="movies" onchange="mostrarValor()">
+                <option value=""></option>
+                <option value="A Viagem de Chihiro" dado-valor="25.50">A Viagem de Chihiro</option>
+                <option value="Serviços de Entrega da Kiki">Serviços de Entrega da Kiki</option>
+                <option value="Vidas ao Vento">Vidas ao Vento</option>
+                <option value="Your Name">Your Name</option>
+                <option value="Doutor Estranho">Doutor Estranho</option>
+                <option value="Harry Potter">Harry Potter</option>
+                <option value="Panico 6">Pânico 6</option>
+                <option value="Perfect Blue">Perfect Blue</option>
+                <option></option>
+            </select>
+        </p>
+
+        <!-- O script abaixo mostra o valor do filme conforme o filme selecionado na página .html -->
+        <script>
+            function mostrarValor() {
+                var select = document.getElementById("movies");
+                var valor;
+                var resultado;
+                switch (select.value) {
+                    case "A Viagem de Chihiro":
+                        valor = 25.50;
+                        break;
+                    case "Serviços de Entrega da Kiki":
+                        valor = 23.99;
+                        break;
+                    case "Vidas ao Vento":
+                        valor = 28.00;
+                        break;
+                    case "Your Name":
+                        valor = 22.50;
+                        break;
+                    case "Doutor Estranho":
+                        valor = 19.35;
+                        break;
+                    case "Harry Potter":
+                        valor = 24.99;
+                        break;
+                    case "Panico 6":
+                        valor = 21.55;
+                        break;
+                    case "Perfect Blue":
+                        valor = 27.99;
+                        break;
+                }
+                document.getElementById("valorFilme").innerHTML = "Valor a pagar: R$ " + valor + " + R$ 2,00 (taxa de locação)";
+
+                resultado = valor + 2.00;
+                document.getElementById("precoFinal").innerHTML = "Preço final: R$ " + resultado;
+            }
+        </script>
+
+        <p id="valorFilme"></p>
+        <p id="precoFinal"></p>
+
+        <p>Opções:
+            <input type="radio" name="opcoes" value="Dublado"/>Dublado
+            <input type="radio" name="opcoes" value="Legendado"/>Legendado
+        </p>
+
+        <!-- A tabela abaixo serve para selecionar a forma de pagamento -->
+        <table width="230px" border="1" cellspacing="0">
+            <tr>
+                <td align="center">Forma de pagamento:</td>
+            </tr>
+            </tr>
+            <td><input type="checkbox" name="pagamento" value="Boleto Bancário">Boleto Bancário</td>
+            </tr>
+            </tr>
+            <td><input type="checkbox" name="pagamento" value="Cartão de Débito">Cartão de Débito</td>
+            </tr>
+            </tr>
+            <td><input type="checkbox" name="pagamento" value="Cartão de Crédito">Cartão de Crédito</td>
+            </tr>
+            </tr>
+            <td><input type="checkbox" name="pagamento" value="Código Pix">Código Pix</td>
+            </tr>
+        </table>
+    </div>
+
+        <p>
+            <div class="buttonenviar">
+             <a href="ler_dados.php">
+            <button class="btn" type="submit" name="enviar" value="ENVIAR" >Comprar</button>
+                 </a>
+                </div>
+        </p>
+
+        <!-- O input abaixo mostra "Compra efetuada com sucesso! na página .php" -->
+        <input type="hidden" name="escondido" value="Compra efetuada com sucesso!" />
+    </form>
+</body>
+
+</html>
