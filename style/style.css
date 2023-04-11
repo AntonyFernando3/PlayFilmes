@@ -1,0 +1,156 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+    135deg,
+    #fff2e6,
+    #fff2e6
+    );
+}
+
+.imagem1 img{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+
+.imagem2 img{
+    height: 60px;
+    width: 60px;
+    float: left;
+  margin-left: 600px;
+}
+
+.texto2{
+    font-size: 36px;
+    line-height: 34px;
+    margin-top: -6px;
+    font-weight: bolder;
+    color: #B22222;
+}
+
+.texto1{
+    font-size: 36px;
+    line-height: 34px;
+    margin-top: -6px;
+    font-weight: bolder;
+    color: #B22222;
+}
+
+.formatacao1{
+    margin-left: 270px;
+}
+
+.formatacao2{
+    margin-left: 150px;
+}
+
+.navbar-brand{
+    height: 70px;
+}
+
+.nav-item .nav-link{
+    color: #B22222;
+    margin: 20px;
+    font-weight: bolder; 
+    font-size: 20px;
+}
+
+.imagemfooter img{
+    height: 101px;
+    width: 101px;
+    float: left;
+    margin-top: -2px;
+}
+
+.textofooter{
+    color: #B22222;
+    font-size: 60px;
+    line-height: 49px;
+    margin-top: 55px;
+    font-weight: bolder;
+}
+
+.card{
+   margin: 30px 40px;
+}
+
+.card-img-top{
+    height: 400px;
+    width: 50px;
+}
+
+.mx-auto .btn{
+    color: white;
+    background-color: #B22222;
+    font-weight: bolder;
+    margin: 0px 76px;
+}
+
+.mx-auto2 .btn{
+    color: white;
+    background-color: #B22222;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+
+.formatacao3{
+    margin-left: -70px;
+}
+
+.ds{
+    font-size: 20px;
+    color: green;
+    text-decoration: line-through;
+    vertical-align: bottom;
+}
+
+.rs{
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+    margin-top: -46px;
+    text-align: right;
+}
+
+.name{
+font-size: 40px;
+font-weight: bold;
+color: #B22222;
+margin-left: 100px;
+}
+
+.imagefilme img{
+    height: 300px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.novo{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: -380px;
+    margin-left: 320px;
+    margin-right: 100px;
+}
+
+.formstyle{
+    margin-left: 550px;
+    float: left;
+   font-weight: bolder;
+}
+
+.texto{
+    font-weight: bolder;
+    color: #B22222;
+    text-decoration: none;
+    margin-left: -70px;
+    font-size: 40px;
+}
+
+.buttonenviar .btn{
+    background-color: #B22222;
+    color: white;
+    font-weight: bolder;
+    margin-top: 560px;
+    margin-left: -350px;
+}
